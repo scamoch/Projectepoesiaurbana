@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 4: Poesia Urbana</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>ODS 4: Educació de Qualitat a través de la Poesia Urbana</h1>
+        <p>Explorant el poder de la poesia urbana per promoure l'educació inclusiva i equitativa.</p>
+    </header>
+    <section id="introduction">
+        <h2>Què és la Poesia Urbana?</h2>
+        <p>
+            La poesia urbana és una forma d'expressió artística que sorgeix als espais públics de la ciutat. A través de versos i rimes, aborda temes socials, culturals i polítics, reflectint la vida quotidiana i les experiències dels seus habitants.
+        </p>
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="4"/>
+            <path d="M50 25 L50 75" stroke="currentColor" stroke-width="4"/>
+            <path d="M25 50 L75 50" stroke="currentColor" stroke-width="4"/>
+        </svg>
+    </section>
+
+    <section id="ods4-connection">
+        <h2>Connexió amb l'ODS 4</h2>
+        <p>
+            L'Objectiu de Desenvolupament Sostenible 4 busca garantir una educació inclusiva, equitativa i de qualitat, i promoure oportunitats d'aprenentatge permanent per a tothom. La poesia urbana pot ser una eina poderosa per assolir aquest objectiu, ja que:
+        </p>
+        <ul>
+            <li>Fomenta la creativitat i el pensament crític.</li>
+            <li>Promou l'expressió cultural i la identitat.</li>
+            <li>Facilita l'accés a l'educació en entorns no convencionals.</li>
+            <li>Genera diàleg i reflexió sobre temes importants.</li>
+        </ul>
+         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+            <rect x="20" y="20" width="60" height="60" stroke="currentColor" stroke-width="4"/>
+            <path d="M20 40 H80" stroke="currentColor" stroke-width="4"/>
+            <path d="M20 60 H80" stroke="currentColor" stroke-width="4"/>
+        </svg>
+    </section>
+    
+    <section id="tallers">
+        <h2>Tallers de Poesia Urbana</h2>
+        <div class="example-container">
+            <div class="poem">
+                <h3>Murals de Poesia Urbana</h3>
+                <p>Crear un mural o una sèrie de murals amb missatges poètics i inspiradors.</p>
+            </div>
+            <div class="poem">
+                <h3>Poesia en viu (spoken word)</h3>
+                <p>Organitzar sessions de poesia en viu amb un estil urbà, on els participants poden pagar per pujar a l’escenari i recitar els seus poemes.</p>
+            </div>
+            <div class="poem">
+                <h3>Tallers de Poesia Urbana</h3>
+                <p>Ofereix tallers interactius per ensenyar als assistents a escriure poesia urbana (slam, rap, street poetry, etc.).</p>
+            </div>
+            <div class="poem">
+                <h3>Instal·lacions poètiques</h3>
+                <p>Crear espais interactius amb lletres grans o grafits on els assistents puguin fer fotos amb missatges poètics.</p>
+            </div>
+            <div class="poem">
+                <h3>Poesia i música</h3>
+                <p>Organitzar un esdeveniment on la poesia urbana es combini amb la música. Es poden convidar grups locals o joves talents de la música urbana (rap, hip-hop) perquè facin actuacions acompanyades de poesia.</p>
+            </div>
+             <div class="poem">
+                <h3>Postals poètiques solidàries</h3>
+                <p>Crear postals amb dissenys de poesia urbana i vendre-les al festival. Les postals poden incloure frases inspiradores o de conscienciació social, i el benefici aniria a les campanyes solidàries que voleu recolzar.</p>
+            </div>
+        </div>
+         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+            <polygon points="50 20, 80 80, 20 80" stroke="currentColor" stroke-width="4"/>
+        </svg>
+    </section>
+
+    <section id="interactive-element">
+        <h2>Crea el teu Propi Poema Urbà</h2>
+        <textarea id="poem-input" placeholder="Escriu aquí el teu poema..."></textarea>
+        <button id="publish-poem">Publicar</button>
+        <div id="poem-output"></div>
+    </section>
+
+    <footer>
+        <p> 2025 ODS 4 - Poesia Urbana</p>
+    </footer>
+</body>
+</html>
